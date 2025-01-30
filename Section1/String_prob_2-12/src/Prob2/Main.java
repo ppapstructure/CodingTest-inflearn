@@ -1,7 +1,7 @@
 package Prob2;
 import java.util.Scanner;
 
-// 대소문자 변환
+// 2번 대소문자 변환
 public class Main {
     public String solution(String str) {
         char[] newStr = str.toCharArray();
