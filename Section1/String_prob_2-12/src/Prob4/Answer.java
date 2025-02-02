@@ -12,7 +12,7 @@ public class Answer {
             String tmp = new StringBuilder(x).reverse().toString();
             answer.add(tmp);
         }
-
+        System.out.print(answer);
         return answer;
     }
 
@@ -62,14 +62,14 @@ public class Answer {
 //        for(String x : T.Solution(n, str)) {
 //            System.out.println(x);
 //        }
-
+            T.Solution(n, str);
 //        for(String x : T.Solution2(n, str)) {
 //            System.out.println(x);
 //        }
 
-          for(String x : T.Solution3(n, str)) {
-            System.out.println(x);
-          }
+//          for(String x : T.Solution3(n, str)) {
+//            System.out.println(x);
+//          }
 
     }
 }
