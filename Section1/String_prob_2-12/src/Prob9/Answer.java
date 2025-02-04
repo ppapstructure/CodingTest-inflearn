@@ -14,7 +14,7 @@ public class Answer {
 //            }
 //        }
 
-        // So2)
+        // Sol2)
         for(char x : str.toCharArray()) {
             if (Character.isDigit(x)) answer+=x;
         }
