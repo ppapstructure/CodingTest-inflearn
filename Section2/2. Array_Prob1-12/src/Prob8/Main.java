@@ -5,14 +5,15 @@ import java.util.*;
 public class Main {
     public int[] solution(int[] arr) {
         int[] answer = new int[arr.length];
-        int max = arr[0];
-        int idx = -1;
-        for(int i = 0; i < arr.length; i++) {
-            if(max < arr[i]) {
-                max = arr[i];
-                idx = i;
+
+        for(int i = 0;i<arr.length;i++) {
+            int cnt = 1;
+
+            for(int j = 0;j<arr.length;j++) {
+                if(arr[i] < arr[j]) cnt++;
             }
 
+            answer[i] = cnt;
         }
 
         return answer;
@@ -29,7 +30,7 @@ public class Main {
         }
 
         for(int s : T.solution(arr))
-        System.out.print(1);
+            System.out.print(s+" ");
 
     }
 }
