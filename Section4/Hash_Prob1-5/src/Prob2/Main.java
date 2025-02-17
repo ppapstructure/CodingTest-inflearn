@@ -8,7 +8,6 @@ public class Main {
         HashMap<Character, Integer> mapA = new HashMap<>();
         HashMap<Character, Integer> mapB = new HashMap<>();
 
-
         for(char c : a.toCharArray()) {
             mapA.put(c, mapA.getOrDefault(c,0)+1);
         }
@@ -16,6 +15,7 @@ public class Main {
         for(char c : b.toCharArray()) {
             mapB.put(c, mapB.getOrDefault(c,0)+1);
         }
+
         boolean is_true = true;
         for(char c : mapA.keySet()) {
             if(mapB.containsKey(c) && mapA.get(c) == mapB.get(c)) {
