@@ -7,7 +7,6 @@ public class Main {
         int answer = 0;
         Stack<Integer>stack = new Stack<>();
 
-
         for(int i = 0;i<m;i++) {
             int col = move[i];
             for(int row = 1;row<n+1;row++) {
