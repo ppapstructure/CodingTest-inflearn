@@ -10,7 +10,6 @@ public class Main {
             // 대문자면 소문자로
             if(newStr[i]<='Z' && newStr[i]>='A') {
                 newStr[i] = (char)(newStr[i]+'a'-'A');
-
             }
 
             // 소문자면 대문자로
