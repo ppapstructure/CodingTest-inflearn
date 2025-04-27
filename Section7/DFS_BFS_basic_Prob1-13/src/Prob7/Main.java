@@ -29,7 +29,7 @@ public class Main {
                 if(tmp.lt != null) Q.offer(tmp.lt);
                 if(tmp.rt != null) Q.offer(tmp.rt);
             }
-
+            L++;
             System.out.println();
         }
 

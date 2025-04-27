@@ -55,6 +55,5 @@ public class Main {
             System.out.printf("%d : %d\n", i,dis[i]);
         }
 
-
     }
 }
